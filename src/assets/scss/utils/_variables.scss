@@ -1,0 +1,107 @@
+$white: #fff;
+$light-gray: #b4b4b4;
+$gray: rgb(119, 119, 119);
+$bg-color: #171717;
+$dark-gray: #616161;
+$gold: #ccac00;
+$red: #e03838;
+$black: #000;
+$primary: $white;
+$green: red;
+$theme-colors: (
+    gold: $gold,
+    white: $white,
+    red: $red,
+    black: $black,
+    primary: $white,
+);
+$font-weight: (
+    light: 200,
+    normal: 300,
+    medium: 500,
+    semiBold: 600,
+    bold: 700,
+);
+$side: 65px;
+
+$spacer: 10px;
+$spacer-x: $spacer;
+$spacer-y: $spacer;
+$spacers: (
+    0: (
+        x: 0,
+        y: 0,
+    ),
+    1: (
+        x: (
+            $spacer-x * 0.5,
+        ),
+        y: (
+            $spacer-y * 0.5,
+        ),
+    ),
+    2: (
+        x: $spacer-x,
+        y: $spacer-y,
+    ),
+    3: (
+        x: (
+            $spacer-x * 1.5,
+        ),
+        y: (
+            $spacer-y * 1.5,
+        ),
+    ),
+    4: (
+        x: (
+            $spacer-x * 3,
+        ),
+        y: (
+            $spacer-y * 3,
+        ),
+    ),
+    5: (
+        x: (
+            $spacer-x * 4,
+        ),
+        y: (
+            $spacer-y * 4,
+        ),
+    ),
+    6: (
+        x: (
+            $spacer-x * 5,
+        ),
+        y: (
+            $spacer-y * 5,
+        ),
+    ),
+    7: (
+        x: (
+            $spacer-x * 6,
+        ),
+        y: (
+            $spacer-y * 6,
+        ),
+    ),
+    auto: (
+        x: auto,
+        y: auto,
+    ),
+);
+
+$grid-breakpoints: (
+    xs: 0,
+    sm: 576px,
+    md: 768px,
+    lg: 992px,
+    xl: 1200px,
+);
+
+$navbarHeight: 130px;
+$navbarHeightMobile: 57px;
+$navbarBottomHeight: 59px;
+$mainMinHeight: calc(100vh - #{$navbarHeight} - #{$navbarBottomHeight});
+$mainMinHeightMobile: calc(
+    100vh - #{$navbarHeightMobile} - #{$navbarBottomHeight}
+);

@@ -1,0 +1,13 @@
+body {
+    background: $bg-color;
+    color: rgb(119, 119, 119);
+    font-family: 'Poppins', sans-serif;
+}
+* {
+    box-sizing: border-box;
+}
+.center-parent {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
